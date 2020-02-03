@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04caa4a0-e6ae-485b-bda1-2406d87f2ff2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/controller/viewobject/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/error/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/error/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/error/EmBusinessError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/response/CommonReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/service/model/UserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xlccc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xlccc/dao/UserDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/dao/UserDOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xlccc/dao/userPasswordDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xlccc/dao/userPasswordDOMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/userPasswordDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/userPasswordDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xlccc/dao/UserDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xlccc/dao/UserDOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xlccc/dao/userPasswordDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xlccc/dao/userPasswordDOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/userPasswordDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/userPasswordDOMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,13 +47,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1XIeD8CwAxcUBBIZ9QZw4O7fZhf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -52,6 +72,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager" selected="Spring Boot.App">
     <configuration name="mybatis-generator:generate" type="MavenRunConfiguration" factoryName="Maven">
@@ -112,57 +133,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580737914326</updated>
-      <workItem from="1580737921913" duration="5154000" />
+      <workItem from="1580737921913" duration="11110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="345" y="179" width="1086" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580742089405">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="345" y="179" width="1086" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1580742089405" />
+    <state x="784" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1580748026372">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="784" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1580748026372" />
     <state x="614" y="372" width="272" height="289" key="Github.ShareDialog" timestamp="1580739937208">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="614" y="372" width="272" height="289" key="Github.ShareDialog/0.0.1500.960@0.0.1500.960" timestamp="1580739937208" />
-    <state width="1012" height="253" key="GridCell.Tab.0.bottom" timestamp="1580743167515">
+    <state width="1012" height="253" key="GridCell.Tab.0.bottom" timestamp="1580745984802">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580743167515" />
-    <state width="1012" height="253" key="GridCell.Tab.0.center" timestamp="1580743167515">
+    <state width="1012" height="253" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580745984802" />
+    <state width="1012" height="253" key="GridCell.Tab.0.center" timestamp="1580745984801">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580743167515" />
-    <state width="1012" height="253" key="GridCell.Tab.0.left" timestamp="1580743167515">
+    <state width="1012" height="253" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580745984801" />
+    <state width="1012" height="253" key="GridCell.Tab.0.left" timestamp="1580745984801">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580743167515" />
-    <state width="1012" height="253" key="GridCell.Tab.0.right" timestamp="1580743167515">
+    <state width="1012" height="253" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580745984801" />
+    <state width="1012" height="253" key="GridCell.Tab.0.right" timestamp="1580745984801">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580743167515" />
-    <state width="1012" height="253" key="GridCell.Tab.1.bottom" timestamp="1580741912724">
+    <state width="1012" height="253" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580745984801" />
+    <state width="1012" height="253" key="GridCell.Tab.1.bottom" timestamp="1580745984803">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580741912724" />
-    <state width="1012" height="253" key="GridCell.Tab.1.center" timestamp="1580741912724">
+    <state width="1012" height="253" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580745984803" />
+    <state width="1012" height="253" key="GridCell.Tab.1.center" timestamp="1580745984802">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1580741912724" />
-    <state width="1012" height="253" key="GridCell.Tab.1.left" timestamp="1580741912724">
+    <state width="1012" height="253" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1580745984802" />
+    <state width="1012" height="253" key="GridCell.Tab.1.left" timestamp="1580745984802">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1580741912724" />
-    <state width="1012" height="253" key="GridCell.Tab.1.right" timestamp="1580741912724">
+    <state width="1012" height="253" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1580745984802" />
+    <state width="1012" height="253" key="GridCell.Tab.1.right" timestamp="1580745984802">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1012" height="253" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1580741912724" />
+    <state width="1012" height="253" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1580745984802" />
+    <state x="480" y="123" key="SettingsEditor" timestamp="1580746431917">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="480" y="123" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1580746431917" />
     <state x="435" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1580738226529">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="435" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1580738226529" />
+    <state x="640" y="209" key="search.everywhere.popup" timestamp="1580746583103">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="640" y="209" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1580746583103" />
   </component>
 </project>
